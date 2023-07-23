@@ -14,12 +14,7 @@ body{
     background-color: #07230e;
 }
 .custom-class{
-    background-image:url(./images/IMG_9695.JPG)
-}
-.custom-class-2{
-    background-image:url(./images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg);
-    backdrop-filter: blur(10px);
-    filter: blur(5px);
+    background-image:url(./images/IMG_9695v2.jpg)
 }
 .entre-background{
     background-image:url(./images/brian-chan-qJ0zGkrE1Zg-unsplash.jpg)
@@ -31,19 +26,7 @@ body{
     background-image:url(./images/ndumiso-silindza-ibu9zUnkLFw-unsplash.jpg)
 }
 .about-background-1{
-    background-image:url(./images/IMG_9689.JPG)
-}
-.about-background-2{
-    background-image:url(./images/IMG-20230622-WA0002.jpg)
-}
-.about-background-3{
-    background-image:url(./images/IMG-20230224-WA0012.jpg)
-}
-.about-background-4{
-    background-image:url(./images/IMG_9699.JPG)
-}
-.about-background-5{
-    background-image:url(./images/IMG_9690.JPG)
+    background-image:url(./images/IMG_9689v2.jpg)
 }
 .logo-title{
     font-family: 'Great Vibes', cursive;

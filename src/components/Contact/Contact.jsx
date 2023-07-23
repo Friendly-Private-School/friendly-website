@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import useFirestore from '../../hooks/useFirestore'
-import { projectFirestore, timestamp } from '../../firebase/config';
+import { projectFirestore} from '../../firebase/config';
 import { doc, setDoc } from 'firebase/firestore';
 // ES Modules
 import uuid from 'uuid';
 import { useNavigate } from 'react-router-dom';
+import ContactDetails from './ContactDetails';
 // CommonJS
 const { v4: uuidv4 } = require('uuid');
 
@@ -58,7 +59,8 @@ const Contact = () => {
     }
 
   return (
-    <div className='bg-white w-full  flex justify-center items-center pt-2 pb-16'>
+    <>
+    <div className='bg-white w-full  flex justify-center items-center pt-2 pb-12'>
         <form action="" className='container h-1/2 pt-2 pb-20 rounded flex flex-col gap-5 sm:px-0 px-5 '>
             <h1 className='text-4xl'>Contact Us</h1>
             <p>Ask a question or leave a message!</p>
@@ -77,6 +79,9 @@ const Contact = () => {
             </div>
         </form>
     </div>
+
+    <ContactDetails />
+    </>
   )
 }
 
