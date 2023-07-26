@@ -28,6 +28,15 @@ body{
 .about-background-1{
     background-image:url(./images/IMG_9689v2.jpg)
 }
+.tourPicture{
+  background-image:url(./images/IMG-20230701-WA0039.jpg)
+}
+.buildingPicture{
+  background-image:url(./images/IMG_9698v3.jpg);
+}
+.lightbulbPicture{
+  background-image:url(./images/lightbulbv2.jpg) ;
+}
 .logo-title{
     font-family: 'Great Vibes', cursive;
 }

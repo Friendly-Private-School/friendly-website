@@ -2,17 +2,21 @@ import React from 'react'
 
 import Vision from './Vision'
 import Studyat from './Studyat'
-import Upcoming from './Upcoming'
-import Footer from '../Footer'
 import Hero from './Hero'
+import SiteAbout from './SiteAbout'
+import TourAbout from './TourAbout'
+import Learning from './Learning'
 
 const Home = () => {
   return (
     <div>
         <Hero/>
         <Vision />
+        <TourAbout />
+        <SiteAbout />
+        <Learning />
         <Studyat />
-        <Upcoming />
+        
     </div>
   )
 }
