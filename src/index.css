@@ -26,16 +26,28 @@ body{
     background-image:url(./images/ndumiso-silindza-ibu9zUnkLFw-unsplash2.jpg)
 }
 .about-background-1{
-    background-image:url(./images/IMG_9689v2.jpg)
+    background-image:url(./images/IMG_9689v3.jpg)
 }
 .tourPicture{
-  background-image:url(./images/IMG-20230701-WA0039.jpg)
+  background-image:url(./images/primaryTour.jpg)
 }
 .buildingPicture{
   background-image:url(./images/IMG_9698v3.jpg);
 }
 .lightbulbPicture{
   background-image:url(./images/lightbulbv2.jpg) ;
+}
+.pastorPicture{
+  background-image:url(./images/pastorPicture.jpg)
+}
+.kidsPicture{
+  background-image:url(./images/kidsPicture.jpg) ;
+}
+.kids2Picture{
+  background-image:url(./images/kids2Picture.jpg) ;
+}
+.kids3Picture{
+  background-image:url(./images/kids3Picture.jpg) ;
 }
 .logo-title{
     font-family: 'Great Vibes', cursive;

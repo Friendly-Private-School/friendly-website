@@ -1,10 +1,12 @@
 import React from 'react';
+import Leadership from './Leadership';
+import FutureLeaders from './FutureLeaders';
 
 
 const About = () => {
     
   return (
-    <div className='w-full bg-[#ececec]'>
+    <div className='w-full bg-gray-100 '>
 
         
 
@@ -19,8 +21,8 @@ const About = () => {
             
             <div className='relative col-span-4 sm:col-span-2 about-background-1 bg-cover bg-center'>
                 <div className='absolute bottom-10 block sm:hidden'>
-                    <div className='flex justify-center items-center w-[80%] mx-auto h-full py-5 bg-[#ffffffcc]'>
-                        <h1 className='text-black text-center text-5xl font-semibold'>
+                    <div className='flex justify-center items-center w-[80%] mx-auto h-full py-5 glass-effect rounded-md'>
+                        <h1 className='text-gray-800 text-center text-5xl font-semibold'>
                             About Friendly Private School
                         </h1>
                     </div>
@@ -44,7 +46,9 @@ const About = () => {
             </div>
         </div>
 
-        <div className='container mx-auto flex gap-5 px-5 pt-5 pb-20 '>            
+        <Leadership />
+
+        <div className='container mx-auto flex gap-5 px-5 py-20'>            
             <div className='w-full flex flex-col justify-center items-center gap-5'>
                 <h1 className='text-4xl font-semibold'>Our Vision</h1>
                 <p className='md:w-1/2 sm:w-[75%] w-auto'>
@@ -53,6 +57,7 @@ const About = () => {
             </div>
         </div>
 
+        <FutureLeaders />
 
     </div>
   )

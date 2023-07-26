@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='flex flex-col gap-8 items-center border-b-2 border-gray-600 pb-5'>
           <h1 className='text-3xl'>Contact</h1>
           <ul className='flex flex-col gap-2 text-lg'>
-              <li><span>Email:</span><span> friendlyprivateschool@gmail.com</span></li>
+              <li><span>Email:</span><span className='hover:text-primary text-white'><a href="mailto:friendlyprivateschool@gmail.com"> friendlyprivateschool@gmail.com</a></span></li>
               <li><span>Fax:</span><span> 066255906</span></li>
               <li><span>Phone:</span><span> 066255845</span></li>
               <li><span>Address:</span><span> Queenspark, Rundu</span></li>
