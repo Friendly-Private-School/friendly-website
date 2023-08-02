@@ -33,11 +33,11 @@ const Navbar = ({isAuth, setIsAuth}) => {
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/gallery'>Gallery</NavLink></li>
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/about'>About</NavLink></li>
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/contact'>Contact</NavLink></li>
-            {!isAuth ? 
+            {/* {!isAuth ? 
                 <li className='p-4 cursor-pointer transition ease-in-out duration-500 bg-white hover:bg-gray-200 rounded text-[#42b426]'><Link to='/login'>Login</Link></li>
                 : <li className=' p-4 cursor-pointer transition ease-in-out duration-500 bg-white hover:bg-gray-200 rounded text-[#42b426] uppercase'>
                     <button onClick={signUserOut} className='uppercase'>Log Out</button>
-                    </li>}
+                    </li>} */}
         </ul>
         <div onClick={handleNav} class='block md:hidden'>
             {!nav ? <AiOutlineMenu size={20} /> :  <AiOutlineClose size={20} />}
@@ -53,7 +53,7 @@ const Navbar = ({isAuth, setIsAuth}) => {
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/gallery'>Gallery</NavLink></li>
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='about'>About</NavLink></li>
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/contact'>Contact</NavLink></li>
-                {!isAuth ?  <li className='p-4 cursor-pointer uppercase bg-white text-[#33ff00] rounded mt-2'><Link to='/login'>Login</Link></li> : <li className='p-4 cursor-pointer uppercase bg-white text-[#33ff00] rounded mt-2'><button className='uppercase '>Log Out</button></li>}
+                {/* {!isAuth ?  <li className='p-4 cursor-pointer uppercase bg-white text-[#33ff00] rounded mt-2'><Link to='/login'>Login</Link></li> : <li className='p-4 cursor-pointer uppercase bg-white text-[#33ff00] rounded mt-2'><button className='uppercase '>Log Out</button></li>} */}
                 
             </ul>
         </div>
