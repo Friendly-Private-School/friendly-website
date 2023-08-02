@@ -57,7 +57,7 @@ const Hero = () => {
                         animate={animation}
                         whileHover={{scale:1.1}}
                         transition={{duration:0.4}}
-                         className='rounded-lg bg-white hover:bg-[#ffffffe6] text-black px-4 py-2 uppercase font-bold border-2 border-white shadow-2xl'>
+                         className='rounded-lg hover:rounded-xl bg-white hover:bg-[#ffffffe6] border-dashed hover:border-dashed hover:border-black text-black px-4 py-2 uppercase font-bold border-2 border-black shadow-2xl'>
                         <Link to='about'>About</Link>
                     </motion.button>
                 </div>
