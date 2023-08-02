@@ -1,7 +1,7 @@
 import 'firebase/compat/storage';
 import 'firebase/compat/firestore';
 import firebase from 'firebase/compat/app'
-
+import {getStorage} from 'firebase/storage';
 import { getAuth, GoogleAuthProvider } from "firebase/auth"
 import { getFirestore } from "firebase/firestore";
 
@@ -20,6 +20,9 @@ const firebaseConfig = {
   
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
+
+export const storage = getStorage(app);
+
 
 const projectStorage = firebase.storage();
 const projectFirestore = firebase.firestore();

@@ -30,7 +30,7 @@ const Navbar = ({isAuth, setIsAuth}) => {
         <ul className='hidden md:flex uppercase'>
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/'>Home</NavLink></li>
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/blog'>Blog</NavLink></li>
-            {/* <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/gallery'>Gallery</NavLink></li> */}
+            <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/gallery'>Gallery</NavLink></li>
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/about'>About</NavLink></li>
             <li className='p-4 cursor-pointer hover:text-[#fdfdfdc3] transition ease-in-out duration-1000'><NavLink to='/contact'>Contact</NavLink></li>
             {!isAuth ? 
@@ -50,7 +50,7 @@ const Navbar = ({isAuth, setIsAuth}) => {
             <ul className='p-4 uppercase text-white'>
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/'>Home</NavLink></li>
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/blog'>Blog</NavLink></li>
-                {/* <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/gallery'>Gallery</NavLink></li> */}
+                <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/gallery'>Gallery</NavLink></li>
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='about'>About</NavLink></li>
                 <li className='p-4 border-b border-gray-400 cursor-pointer'><NavLink to='/contact'>Contact</NavLink></li>
                 {!isAuth ?  <li className='p-4 cursor-pointer uppercase bg-white text-[#33ff00] rounded mt-2'><Link to='/login'>Login</Link></li> : <li className='p-4 cursor-pointer uppercase bg-white text-[#33ff00] rounded mt-2'><button className='uppercase '>Log Out</button></li>}
