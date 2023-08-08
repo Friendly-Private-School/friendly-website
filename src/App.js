@@ -12,6 +12,7 @@ import Login from './components/Login/Login';
 import CreatePost from './components/Blog/CreatePost';
 import Blog from './components/Blog/Blog';
 import GalleryNew from './components/Gallery/GalleryNew';
+import ApplicationForms from './components/Apply/ApplicationForms';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/login' element={<Login setIsAuth={setIsAuth} />} />
         <Route path='/create-post' element={<CreatePost isAuth={isAuth}/>} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/application-forms' element={<ApplicationForms/>} />
         
 
         

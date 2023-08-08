@@ -15,7 +15,7 @@ const Home = () => {
         <TourAbout />
         <SiteAbout />
         <Learning />
-        {/* <Studyat /> */}
+        <Studyat />
         
     </div>
   )

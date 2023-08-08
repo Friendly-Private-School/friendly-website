@@ -3,6 +3,7 @@ import {motion} from 'framer-motion'
 import {useInView} from 'react-intersection-observer'
 import {useEffect} from 'react'
 import {useAnimation} from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const Studyat = () => {
 
@@ -39,7 +40,7 @@ const Studyat = () => {
             </motion.div>
             <div>
                 <motion.button animate={animation} className=' bg-primary hover:bg-[#3a9822] text-white px-4 py-2 rounded-md'>
-                    Application Form
+                    <Link to='application-forms'>Application Form</Link>
                 </motion.button>
             </div>
         </div>
